@@ -22,9 +22,7 @@ nav ul li {
 
 
 
-
-
-/* main--------------Section-01 */
+/* Section-----------Banner------------ design*/
 .Developer {
     background-image: url(../image/Hero-bg.png);
     width: 1540px;
@@ -60,6 +58,7 @@ nav ul li {
     width: 852px;
     font-size: 18px;
     margin-left: 350px;
+    color: rgb(13, 19, 33);
 
 }
 
@@ -79,4 +78,58 @@ nav ul li {
 }
 
 
-/* main--------------Section-01 */
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* Section----Why---Web ----Development--- design */
+
+.Web-development {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    margin-top: 80px;
+}
+
+.web {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.web-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+
+
+}
+
+/* I will Do Coding and Change The World */
+.coding {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.coding-container {
+    max-width: 478px;
+}
+
+.coding-containers {
+    max-width: 323px;
+    margin-right: 200px;
+
+}
+
+.coding-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.coding-image-container {
+    max-width: 275px;
+}
