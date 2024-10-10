@@ -215,7 +215,7 @@ main {
     background-image: url(../image/handshake.jpg);
     width: 1140px;
     height: 632px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 
 }
 
@@ -261,4 +261,22 @@ main {
     padding: 220px 0px;
     text-align: center;
     align-items: center;
+}
+
+
+
+/* Section-------------------Icon ---------------------- design */
+
+footer {
+    max-width: 1140px;
+    height: 132px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icon {
+
+    justify-items: center;
 }
