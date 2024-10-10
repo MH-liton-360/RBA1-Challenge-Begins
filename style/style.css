@@ -175,7 +175,7 @@ main {
     height: 300px;
     padding: 30px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
+    background: rgba(247, 6, 6, 0.05);
     box-shadow: 0px 6px 40px 0px rgb(242, 245, 245);
     margin-bottom: 80px;
 }
@@ -185,8 +185,8 @@ main {
     height: 300px;
     padding: 30px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
-    box-shadow: 0px 6px 40px 0px rgb(249, 203, 243);
+    background: rgba(34, 150, 123, 0.05);
+    box-shadow: 0px 6px 40px 0px rgb(242, 245, 245);
     margin-bottom: 80px;
 }
 
@@ -195,8 +195,8 @@ main {
     height: 300px;
     padding: 30px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
-    box-shadow: 0px 6px 40px 0px rgb(255, 236, 249);
+    background: rgba(243, 39, 39, 0.05);
+    box-shadow: 0px 6px 40px 0px rgb(242, 245, 245);
     margin-bottom: 80px;
 }
 
