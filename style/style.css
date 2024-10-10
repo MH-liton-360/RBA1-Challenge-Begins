@@ -203,3 +203,54 @@ main {
 .add-links {
     margin-top: 90px;
 }
+
+
+
+/* Section-------I ----need-------support----- design */
+
+#support {
+    text-align: center;
+    background-image: url(../image/handshake.jpg);
+    width: 1140px;
+    height: 632px;
+
+
+}
+
+.support-box {
+    text-align: center;
+
+}
+
+.Support-title {
+
+    font-size: 32px;
+    font-weight: 800px;
+    color: aliceblue;
+}
+
+.Support-description {
+    width: 606px;
+    font-size: 17px;
+    margin-left: 240px;
+    color: rgb(255, 255, 255);
+}
+
+.input {
+    text-align: left;
+    width: 550px;
+    height: 40px;
+    /* margin-left: 240px; */
+    border: none;
+    border-radius: 5px;
+
+}
+
+.submit-btn {
+    font-size: 32;
+    font-weight: 700;
+    width: 80px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+}
