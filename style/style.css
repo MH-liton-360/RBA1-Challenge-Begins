@@ -176,8 +176,8 @@ main {
     padding: 30px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    box-shadow: 0px 6px 40px 0px rgb(246, 207, 241);
-    margin-bottom: 40px;
+    box-shadow: 0px 6px 40px 0px rgb(242, 245, 245);
+    margin-bottom: 80px;
 }
 
 
@@ -212,11 +212,17 @@ main {
 
 .need-support {
     text-align: center;
-    background-image: url(../image/handshake.jpg);
+    background-image: url(../image/hand.jpg);
     width: 1140px;
-    height: 632px;
-    margin-bottom: 80px;
+    height: 442px;
+    margin-bottom: 40px;
 
+}
+
+.support {
+    padding: 85px 0px;
+    text-align: center;
+    align-items: center;
 }
 
 .support-box {
@@ -241,26 +247,23 @@ main {
 .input {
     text-align: left;
     width: 550px;
-    height: 40px;
-    /* margin-left: 240px; */
+    height: 45px;
     border: none;
     border-radius: 5px;
+
+
 
 }
 
 .submit-btn {
-    font-size: 32;
-    font-weight: 700;
-    width: 80px;
-    height: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 120px;
+    height: 45px;
     border: none;
     border-radius: 5px;
-}
+    color: rgb(13, 19, 33);
 
-.support {
-    padding: 220px 0px;
-    text-align: center;
-    align-items: center;
 }
 
 
@@ -269,7 +272,7 @@ main {
 
 footer {
     max-width: 1140px;
-    height: 132px;
+    height: 80px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
