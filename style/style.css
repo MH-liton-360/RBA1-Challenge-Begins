@@ -68,11 +68,13 @@ nav ul li {
 }
 
 .btn {
-    width: 180px;
+    width: 150px;
     height: 40px;
+    font-size: 14px;
+    font-weight: 600;
     color: rgb(247, 241, 241);
     background: rgb(18, 17, 17);
-    padding: 5px;
+    padding: 0px 5px;
     border-radius: 5px;
     border: none;
 }
@@ -82,7 +84,6 @@ nav ul li {
 main {
     max-width: 1140px;
     margin: 0 auto;
-
 }
 
 /* Section----Why---Web-----Development--- design */
@@ -120,14 +121,33 @@ main {
 }
 
 .coding-containers {
-    max-width: 323px;
-    margin-right: 200px;
+    max-width: 523px;
+    margin-right: 140px;
 
 }
 
 .coding-title {
-    font-size: 26px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 22px;
     font-weight: 700;
+}
+
+.learn-btn {
+    height: 47px;
+    width: 171px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    color: black;
 }
 
 .coding-image-container {
@@ -140,8 +160,6 @@ main {
 .inspiration {
     padding: 80px 97px;
     text-align: center;
-
-
 }
 
 .inspiration-title {
@@ -153,17 +171,16 @@ main {
 .inspiration-description {
     font-size: 17px;
     color: rgb(13, 19, 33);
+    margin-bottom: 50px;
 
 }
 
 .inspiration-video {
-    padding: 10px 0px 10px 80px;
-
+    border-radius: 16px;
 }
 
 
 /* Section-------My ----Current-------Target----- design */
-
 
 #current-Box-container {
     display: flex;
@@ -175,8 +192,8 @@ main {
     height: 300px;
     padding: 30px;
     border-radius: 16px;
-    background: rgba(247, 6, 6, 0.05);
-    box-shadow: 0px 6px 40px 0px rgb(242, 245, 245);
+    background: rgba(5, 1, 0, 0.05);
+    box-shadow: 0px 6px 40px 0px rgba(5, 1, 0, 0.05);
     margin-bottom: 80px;
 }
 
@@ -185,8 +202,8 @@ main {
     height: 300px;
     padding: 30px;
     border-radius: 16px;
-    background: rgba(34, 150, 123, 0.05);
-    box-shadow: 0px 6px 40px 0px rgb(242, 245, 245);
+    background: rgba(0, 76, 232, 0.05);
+    box-shadow: 0px 6px 40px 0px rgba(0, 76, 232, 0.05);
     margin-bottom: 80px;
 }
 
@@ -195,8 +212,8 @@ main {
     height: 300px;
     padding: 30px;
     border-radius: 16px;
-    background: rgba(243, 39, 39, 0.05);
-    box-shadow: 0px 6px 40px 0px rgb(242, 245, 245);
+    background: rgba(255, 223, 0, 0.05);
+    box-shadow: 0px 6px 40px 0px rgba(255, 223, 0, 0.05);
     margin-bottom: 80px;
 }
 
@@ -218,43 +235,36 @@ main {
     color: rgb(13, 19, 33);
 }
 
-.add-link {
-    margin-top: 120px;
-}
-
-.add-links {
-    margin-top: 90px;
-}
-
-
 
 /* Section-------I----need-------support----- design */
 
 .need-support {
     text-align: center;
-    background-image: url(../image/hand.jpg);
-    width: 1140px;
-    height: 442px;
+    background-image: url(../image/image.png);
+    width: 1040px;
+    height: 200px;
     margin-bottom: 40px;
-    border-radius: 10px;
+    border-radius: 16px;
+    background-size: cover;
+    padding: 64px 48px 64px 48px;
+
 
 }
 
 .support {
-    padding: 85px 0px;
+
     text-align: center;
     align-items: center;
 }
 
 .support-box {
     text-align: center;
-
 }
 
 .Support-title {
 
     font-size: 32px;
-    font-weight: 800px;
+    font-weight: 800;
     color: aliceblue;
 }
 
@@ -271,6 +281,7 @@ main {
     height: 45px;
     border: none;
     border-radius: 5px;
+    margin-right: 5px;
 
 
 
@@ -285,6 +296,13 @@ main {
     border-radius: 5px;
     color: rgb(13, 19, 33);
 
+}
+
+
+.suggest {
+
+    width: 240px;
+    height: 347px;
 }
 
 /* Section-------------------Icon----------------------- design----------Bonus-------part */
